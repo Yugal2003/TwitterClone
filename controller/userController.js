@@ -82,6 +82,7 @@ const login = async(req,res) =>{
         })
     } 
     catch (error) {
+        console.log(error);
         res.status(401).json({
             success : false,
             message : "Failed to Login"
