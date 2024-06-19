@@ -5,7 +5,7 @@ import userRoute from './routes/userRoute.js'
 import tweetRoute from './routes/tweetRoute.js'
 import cookieParser from 'cookie-parser';
 import cors from 'cors'
-const PORT = process.env.BASE_URL || 9669;
+const PORT = process.env.PORT || 9669;
 
 dotenv.config();
 
