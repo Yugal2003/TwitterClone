@@ -16,6 +16,7 @@ mongoose.connect(process.env.MONGO_URI)
 const app = express();
 
 // middleware
+app.use(express.static("build"));
 app.use(express.json());
 app.use(express.urlencoded({extended:true}));
 app.use(cookieParser());
