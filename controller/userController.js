@@ -73,7 +73,7 @@ const login = async(req,res) =>{
         };
 
         //pass token
-        const token = jwt.sign({userId:user._id}, process.env.SECRET_TOKEN, {expiresIn : "20d"});
+        const token = await jwt.sign({userId:user._id}, process.env.SECRET_TOKEN, {expiresIn : "20d"});
         return res.status(201).cookie("token",token, {expiresIn:"20d" ,httpOnly : true}).json({
             success:true,
             message:`Welcome ${user.name}`,
