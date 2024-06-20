@@ -41,3 +41,28 @@ User can Show All Tweet in Twitter App.
 
 GET https://twitterclone-e11m.onrender.com/followingtweets/:id  <br/>
 User can Show Only Tweet for Following User Twitter App.
+
+<ul>
+  <li><h2>Home Page</h2></li>
+  <img src="https://github.com/Yugal2003/TwitterClone/assets/132428388/5ad421ac-84dd-45c6-9f2e-e71039992519" /><br>
+</ul>
+
+<ul>
+  <li><h2>SignUp Page</h2></li>
+  <img src="https://github.com/Yugal2003/TwitterClone/assets/132428388/c0eaf3ed-dec4-492d-a802-fac84b4bcff7" /><br>
+</ul>
+
+<ul>
+  <li><h2>Login Page</h2></li>
+  <img src="https://github.com/Yugal2003/TwitterClone/assets/132428388/90344ef3-9600-4178-8cee-154510105d39" /><br>
+</ul>
+
+<ul>
+  <li><h2>Profile Page</h2></li>
+  <img src="https://github.com/Yugal2003/TwitterClone/assets/132428388/dede93e5-d599-4c14-afb6-baaa40c7025b" /><br>
+</ul>
+
+<ul>
+  <li><h2>AllUser Tweets Page</h2></li>
+  <img src="https://github.com/Yugal2003/TwitterClone/assets/132428388/52dfc19d-b0aa-4f3c-8286-355c884c5186" /><br>
+</ul>
